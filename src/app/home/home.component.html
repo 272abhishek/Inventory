@@ -1,0 +1,32 @@
+
+
+<mat-toolbar>
+   
+    <span style="color:white">Inventory</span>
+    <span class="example-spacer"></span>
+    
+    
+  </mat-toolbar>
+  
+  <div class="buttons">
+    <span>Home</span><span routerLink="/pieChart">Pie-Graph</span> <span routerLink="/barChart">Bar-Graph</span><span>Blogs</span><span>Contact</span><span>About</span><span>Feedback</span>
+ </div>
+  <!-- side-nav -->
+<span class="s">
+
+    <mat-drawer-container class="example-container">
+    <mat-drawer class="side_nav" mode="side" opened>
+     
+      <div class="buttons1 animate__animated animate__backInLeft" >
+        <div routerLink="http://localhost:4200">Home</div><div routerLink="/barChart">Bar Graph</div> <div routerLink="/pieChart">Pie Graph</div><div>Blog</div><div>Contact</div><div>About</div><div>Feedback</div>
+     </div>
+    </mat-drawer>
+  </mat-drawer-container>
+  
+<div class="outlet ">
+  <router-outlet></router-outlet>
+ </div>
+
+</span> 
+
+
